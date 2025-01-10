@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about page</title>
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+<body>
+    <!-----header top section starts-->
+    <div class="section header_top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 header_cols">
+                    <a href="login.html"><i class="fa fa-unlock-alt" aria-hidden="true"></i>Sign in</a>
+                </div>
+                <div class="col-md-3 header_cols">
+                    <a href="signup.html"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Sign Up</a>
+                </div>
+                <div class="col-md-3 header_cols">
+                    <a href="#"><i class="fa fa-phone" aria-hidden="true"></i> Call : 01234567898</a>
+                </div>
+                <div class="col-md-3 header_cols">
+                    <a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i> amnkaursdimt2022@gmail.com</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!---- header top section ends-->
+    <!---navbar section starts-->
+    <div class="section navbar_section">
+        <nav class="navbar navbar-expand-sm navigation_padding">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="assets/images/logo_mine_shop.png" class="header_img"
+                        alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavbar" title="abc">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav navbar_items">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <div class="dropdown">
+                                <a class="nav-link  dropdown-toggle active" href="#">
+                                    Categories</a>
+                                <ul class="dropdown-menu categories_menu">
+                                    <li><a class="dropdown-item" href="men.html">Men's Wear</a></li>
+                                    <li><a class="dropdown-item" href="women.html">Women's Wear</a></li>
+                                    <li><a class="dropdown-item" href="accessories.html">Accessories</a></li>
+                                    <li><a class="dropdown-item" href="beauty.html">Beauty</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <form>
+                                <div class="input-group search_bar">
+                                    <input type="text" class="form-control" placeholder="Search Here...">
+                                    <span class="search_icon input-group-text"><i class="fa fa-search"
+                                            aria-hidden="true"></i></span>
+                                </div>
+
+                            </form>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </div>
+
+    <!----navbar section -->
+    <!----- banner section starts-->
+    <div class="section banner_section bg_img">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="heading_banner">MEN'S WEAR</h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <ul class="breadcrumb">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="men.html" class="text-white">Men's Wear</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----banner section ends-->
+
+    <!-------men product section starts-------->
+    <div class="section product_section sec_gap padding_overall">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h4 class="basic_aqua_color text-center">MEN'S CLOTHING</h4>
+                    <h2 class="section_heading">EXCLUSIVE MEN'S COLLECTIONS</h2>
+                </div>
+            </div>
+            <!----row 1 product images starts-->
+
+            <div class="row" id="add">
+                <div class="col-md-3">
+                    <div class="inner_card">
+                        <div class="product_card">
+                            <img src="assets/images/cloth7.jpg" alt="Men Shoes">
+                            <h4>Men Shoes</h4>
+                            <p class="price">$200</p>
+                            <button type="button" class="btn add-to-cart" data-name="Men Shoes" data-price="$200"
+                                data-image="assets/images/cloth7.jpg" data-bs-toggle="modal" data-bs-target="#myModal">
+                                ADD TO CART
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="inner_card">
+                        <div class="product_card">
+                            <img src="assets/images/watch_img.jpg" alt="Analog Watch">
+                            <h4>Analog Watch</h4>
+                            <p class="price">$319.99</p>
+                            <button type="button" class="btn add-to-cart" data-name="Analog Watch" data-price="$319.99"
+                                data-image="assets/images/watch_img.jpg" data-bs-toggle="modal"
+                                data-bs-target="#myModal">
+                                ADD TO CART
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="inner_card">
+                        <div class="product_card">
+                            <img src="assets/images/cloth9.jpg" alt="Formal Shirts">
+                            <h4>Formal Shirts</h4>
+                            <p class="price">$500.67</p>
+                            <button type="button" class="btn add-to-cart" data-name="Formal Shirts" data-price="$500.67"
+                                data-image="assets/images/cloth9.jpg" data-bs-toggle="modal" data-bs-target="#myModal">
+                                ADD TO CART
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-3">
+                    <div class="inner_card">
+                        <div class="product_card">
+                            <img src="assets/images/cloth6.jpg" alt="Classy Suit Set">
+                            <h4>Classy Suit Set</h4>
+                            <p class="price">$700</p>
+                            <button type="button" class="btn add-to-cart" data-name="Classy Suit Set" data-price="$700"
+                                data-image="assets/images/watch_img.jpg" data-bs-toggle="modal"
+                                data-bs-target="#myModal">
+                                ADD TO CART
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!----row 1 product images ends-->
+            <!----row 2 product images starts-->
+            <div class="row row_n_product_sec" id="add">
+                <div class="col-md-3">
+                    <div class="inner_card">
+                        <div class="product_card">
+                            <img src="assets/images/cloth10.jpg" alt="Leather Belt">
+                            <h4>Leather Belt</h4>
+                            <p class="price">$100.34</p>
+                            <button type="button" class="btn add-to-cart" data-name="Leather Belt" data-price="$100.34"
+                                data-image="assets/images/cloth10.jpg" data-bs-toggle="modal" data-bs-target="#myModal">
+                                ADD TO CART
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="inner_card">
+                        <div class="product_card">
+                            <img src="assets/images/cloth8.jpg" alt="Comfort Hoodie">
+                            <h4>Comfort Hoodie</h4>
+                            <p class="price">$400</p>
+                            <button type="button" class="btn add-to-cart" data-name="Comfort Hoodie" data-price="$400"
+                                data-image="assets/images/cloth8.jpg" data-bs-toggle="modal" data-bs-target="#myModal">
+                                ADD TO CART
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="inner_card">
+                        <div class="product_card">
+                            <img src="assets/images/purse2.jpg" alt="Leather Purse">
+                            <h4>Leather Purse</h4>
+                            <p class="price">$19.99</p>
+                            <button type="button" class="btn add-to-cart" data-name="Leather Purse" data-price="$19.99"
+                                data-image="assets/images/purse2.jpg" data-bs-toggle="modal" data-bs-target="#myModal">
+                                ADD TO CART
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="inner_card">
+                        <div class="product_card">
+                            <img src="assets/images/bag1_img.jpg" alt="Puma School Bag">
+                            <h4>Puma School Bag</h4>
+                            <p class="price">$270.12</p>
+                            <button type="button" class="btn add-to-cart" data-name="Puma School Bag"
+                                data-price="$270.12" data-image="assets/images/girl_watch.jpg" data-bs-toggle="modal"
+                                data-bs-target="#myModal">
+                                ADD TO CART
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!----row 2 product images ends-->
+            <!----row 3 product images starts-->
+            <div class="row row_n_product_sec" id="add">
+                <div class="col-md-3">
+                    <div class="inner_card">
+                        <div class="product_card">
+                            <img src="assets/images/watch_img.jpg" alt="Analog Watch">
+                            <h4>Analog Watch</h4>
+                            <p class="price">$319.99</p>
+                            <button type="button" class="btn add-to-cart" data-name="Analog Watch" data-price="$319.99"
+                                data-image="assets/images/watch_img.jpg" data-bs-toggle="modal"
+                                data-bs-target="#myModal">
+                                ADD TO CART
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="inner_card">
+                        <div class="product_card">
+                            <img src="assets/images/cloth9.jpg" alt="Formal Shirts">
+                            <h4>Formal Shirts</h4>
+                            <p class="price">$500.67</p>
+                            <button type="button" class="btn add-to-cart" data-name="Formal Shirts" data-price="$500.67"
+                                data-image="assets/images/cloth9.jpg" data-bs-toggle="modal" data-bs-target="#myModal">
+                                ADD TO CART
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-3">
+                    <div class="inner_card">
+                        <div class="product_card">
+                            <img src="assets/images/cloth6.jpg" alt="Classy Suit Set">
+                            <h4>Classy Suit Set</h4>
+                            <p class="price">$700</p>
+                            <button type="button" class="btn add-to-cart" data-name="Classy Suit Set" data-price="$700"
+                                data-image="assets/images/watch_img.jpg" data-bs-toggle="modal"
+                                data-bs-target="#myModal">
+                                ADD TO CART
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="inner_card">
+                        <div class="product_card">
+                            <img src="assets/images/cloth8.jpg" alt="Comfort Hoodie">
+                            <h4>Comfort Hoodie</h4>
+                            <p class="price">$400</p>
+                            <button type="button" class="btn add-to-cart" data-name="Comfort Hoodie" data-price="$400"
+                                data-image="assets/images/cloth8.jpg" data-bs-toggle="modal" data-bs-target="#myModal">
+                                ADD TO CART
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!----row 3 product images ends-->
+
+        </div>
+    </div>
+
+    <!-------men product section starts-------->
+    <!--------map section homepage starts--------->
+    <div class="section map_section_homepage padding_overall">
+        <div class="container">
+            <div class="row" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="100s">
+                <div class="col-md-6 col1_form">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14887.146327442717!2d77.48833902159761!3d30.34352656003649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ef99b8b19ea25%3A0xfc76e2b1f391902!2sYamuna%20Nagar%2C%20Haryana!5e0!3m2!1sen!2sin!4v1736264125135!5m2!1sen!2sin"
+                        title="Google Map showing Yamuna Nagar, Haryana" class="iframe_contact" loading="lazy"
+                        allowfullscreen width="100%"></iframe>
+                    <div class="map_description text-center">
+                        <h2><img src="assets/images/monument_map.webp" alt="map_img"></h2>
+                        <h5 class="basic_aqua_color">INDIA</h5>
+                        <p class="p-0"> #123, Model Town, Yamunanagar(135003)</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-12 col1_form">
+                            <h3>FOR MORE INFORMATION</h3>
+                            <div class="row subrows_form">
+                                <div class="col-md-2 text-center">
+                                    <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+                                </div>
+                                <div class="col-md-10">
+                                    <h4>TELEPHONE</h4>
+                                    <h5>+1 (100)222-23-33
+                                    </h5>
+                                </div>
+                            </div>
+                            <div class="row subrows_form">
+                                <div class="col-md-2 text-center">
+                                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                </div>
+                                <div class="col-md-10">
+                                    <h4>MAIL</h4>
+                                    <h5>mineshop@gmail.com
+                                    </h5>
+                                </div>
+                            </div>
+                            <div class="row subrows_form">
+                                <div class="col-md-2 text-center">
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                </div>
+                                <div class="col-md-10">
+                                    <h4>LOCATION</h4>
+                                    <h5>#123, Model Town, Yamunanagar
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+
+    <!--------map section homepage ends--------->
+
+
+
+    <!----- footer section starts-->
+    <div class="section footer_section">
+        <div class="container">
+            <div class="row footer_row">
+                <!---column1 footer starts-->
+                <div class="col-md-3 footer_col">
+                    <h3 class="footer_headings">
+                        <img src="assets/images/black_bg_logo.png" id="logo_footer" alt="footer">
+                    </h3>
+                    <ul>
+                        <li>
+                            <a href="#" title="abc"><i class="fa fa-map-marker" id="col1_footer" aria-hidden="true"
+                                    title="abc"></i></a>
+                            <span>#123, Model Town, Ynr</span>
+
+
+                        </li>
+                        <li>
+                            <a href="#" title="abc"> <i class="fa fa-envelope-o" id="col1_footer" aria-hidden="true"
+                                    title="abc"></i></a>
+                            <span> amnkaur@gmail.com
+                            </span>
+
+                        </li>
+                        <li>
+                            <a href="#" title="abc"> <i class="fa fa-phone" id="col1_footer" aria-hidden="true"
+                                    title="abc"></i></a>
+                            <span>+1234 567 567
+                            </span>
+
+                        </li>
+                    </ul>
+                    <div class="parent_social_icons">
+                        <!--- facebook flip icon starts-->
+                        <div class="flip_box social_icons">
+                            <div class="flip_box_inner">
+                                <div class="flip_box_front" id="fb_icon_front">
+                                    <a href="#" title="abc"><i class="fa fa-facebook" aria-hidden="true"
+                                            title="abc"></i></a>
+                                </div>
+                                <div class="flip_box_back" id="fb_icon_back">
+                                    <a href="#" title="abc"><i class="fa fa-facebook" aria-hidden="true"
+                                            title="abc"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--- linked in flip icon starts-->
+                        <div class="flip_box social_icons">
+                            <div class="flip_box_inner">
+                                <div class="flip_box_front" id="linked_icon_front">
+                                    <a href="#" title="abc"><i class="fa fa-linkedin" aria-hidden="true"
+                                            title="abc"></i></a>
+                                </div>
+                                <div class="flip_box_back" id="linked_icon_back">
+                                    <a href="#" title="abc"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--- twitter flip icon starts-->
+                        <div class="flip_box social_icons">
+                            <div class="flip_box_inner">
+                                <div class="flip_box_front" id="twitter_icon_front">
+                                    <a href="#" title="abc"><i class="fa fa-twitter" aria-hidden="true"
+                                            title="abc"></i></a>
+                                </div>
+                                <div class="flip_box_back" id="twitter_icon_back">
+                                    <a href="#" title="abc"><i class="fa fa-twitter" aria-hidden="true"
+                                            title="abc"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--- instagram flip icon starts-->
+                        <div class="flip_box social_icons">
+                            <div class="flip_box_inner">
+                                <div class="flip_box_front" id="insta_icon_front">
+                                    <a href="#" title="abc"><i class="fa fa-instagram" aria-hidden="true"
+                                            title="abc"></i></a>
+                                </div>
+                                <div class="flip_box_back" id="insta_icon_back">
+                                    <a href="#" title="abc"><i class="fa fa-instagram" aria-hidden="true"
+                                            title="abc"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+                <!---column 2 footer section-->
+                <div class="col-md-3 footer_col">
+                    <h3 class="footer_headings">
+                        INFORMATION
+                    </h3>
+                    <ul>
+                        <li>
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            <span>About Us</span>
+                        </li>
+                        <li>
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            <span>Contact Us</span>
+                        </li>
+                        <li>
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            <span>Short Codes</span>
+                        </li>
+                        <li>
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            <span>FAQ's
+                            </span>
+                        </li>
+                        <li>
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            <span>
+                                Special Products
+                            </span>
+                        </li>
+
+
+
+                    </ul>
+                </div>
+                <!-----column 3 footer starts-->
+                <div class="col-md-3 footer_col">
+                    <h3 class="footer_headings">
+                        CATEGORY
+                    </h3>
+                    <ul>
+                        <li>
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            <span>Groceries</span>
+                        </li>
+                        <li>
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            <span>Household</span>
+                        </li>
+                        <li>
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            <span>Personal Care</span>
+                        </li>
+                        <li>
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            <span>Packaged Foods
+                            </span>
+                        </li>
+                        <li>
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            <span>
+                                Beverages
+                            </span>
+                        </li>
+
+
+
+                    </ul>
+
+                </div>
+                <!-----column 4 footer-->
+                <div class="col-md-3 footer_col">
+                    <h3 class="footer_headings">
+                        PROFILE
+                    </h3>
+                    <ul>
+                        <li>
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            <span>Store</span>
+                        </li>
+                        <li>
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            <span>My Cart</span>
+                        </li>
+                        <li>
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            <span>Login</span>
+                        </li>
+                        <li>
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            <span>Create Account
+                            </span>
+                        </li>
+
+
+
+                    </ul>
+
+                </div>
+            </div>
+            <!--- Newsletter sign in row starts-->
+            <div class="row sign_up_row">
+                <div class="col-md-6">
+                    <h2>SIGN UP FOR NEWSLETTER !</h2>
+                </div>
+                <div class="col-md-6">
+                    <form>
+
+
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Enter your Email...">
+                            <span class=" submit_optn_footer input-group-text">SUBMIT</span>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+            <!----- copyright row starts-->
+            <div class="row text-center copyright_row">
+                <div class="col-md-12">
+                    <h5>© 2024 MINE SHOP | All rights reserved |</h5>
+                </div>
+            </div>
+
+            <!----- copyright row ends-->
+        </div>
+    </div>
+    <!---  footer section ends-->
+    <div class="modal" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title basic_aqua_color">ADD TO CART</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" title="abc"></button>
+                </div>
+
+                <!-- Modal Body -->
+                <div class="modal-body modal_text">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <h5>Formal Blue Shirt</h5> <!-- This should be updated -->
+                        </div>
+                        <div class="col-md-3">
+                            <h5>1 X 1</h5> <!-- This is quantity x1 (fixed in this example) -->
+                        </div>
+                        <div class="col-md-4">
+                            <h5>$20.45</h5> <!-- This should be updated -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal Footer -->
+                <div class="modal-footer">
+                    <a href="#add">
+                        <button type="button" class="btn modal_btn" data-bs-dismiss="modal">Add More</button>
+                    </a>
+                    <a href="product_description.html">
+                        <button type="button" class="btn modal_btn" data-bs-dismiss="modal">Buy Now</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+        document.addEventListener('DOMContentLoaded', function () {
+            let cart = [];
+
+            document.querySelectorAll('.add-to-cart').forEach(button => {
+                button.addEventListener('click', function () {
+                    const name = button.getAttribute('data-name');
+                    const price = parseFloat(button.getAttribute('data-price').replace('$', ''));
+                    const image = button.getAttribute('data-image');
+
+                    // Check if the product is already in the cart
+                    const existingProduct = cart.find(product => product.name === name);
+
+                    if (existingProduct) {
+                        // If product is already in the cart, increase its quantity
+                        existingProduct.quantity += 1;
+                    } else {
+                        // If product is not in the cart, add it with quantity 1
+                        cart.push({ name, price, image, quantity: 1 });
+                    }
+
+                    // Update the modal content with cart items and total price
+                    updateCartModal();
+                });
+            });
+
+            function updateCartModal() {
+                const cartItemsContainer = document.querySelector('#myModal .modal-body');
+                cartItemsContainer.innerHTML = ''; // Clear previous items
+
+                let totalPrice = 0;
+
+                cart.forEach(item => {
+                    const cartItemRow = document.createElement('div');
+                    cartItemRow.className = 'row';
+
+                    cartItemRow.innerHTML = `
+            <div class="col-md-5">
+                <h5 class="mb-3"> ${item.name}</h5>
+            </div>
+            <div class="col-md-3">
+                <h5 class="basic_aqua_color">${item.quantity} X ${item.price}</h5>
+            </div>
+            <div class="col-md-4">
+                <h5>$${(item.price * item.quantity).toFixed(2)}</h5>
+            
+            </div>
+        `;
+
+                    cartItemsContainer.appendChild(cartItemRow);
+
+                    // Add to the total price
+                    totalPrice += item.price * item.quantity;
+                });
+
+                // Add total price to the modal
+                const totalRow = document.createElement('div');
+                totalRow.className = 'row';
+                totalRow.innerHTML = `<hr>
+        <div class="col-md-8 mt-1">
+            
+            <h5 class="basic_aqua_color p-3"> TOTAL :</h5>
+        </div>
+        <div class="col-md-4 mt-3">
+            <h5 class="price">$${totalPrice.toFixed(2)}</h5>
+          
+        </div>
+        
+    `
+
+                cartItemsContainer.appendChild(totalRow);
+            }
+        });
+
+    </script>
+</body>
+
+</html>
